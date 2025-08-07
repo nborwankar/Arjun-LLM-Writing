@@ -1,0 +1,192 @@
+# ═══════════════════════════════════════════════════════════════════════════════════════
+# .gitignore for Arjun LLM Fine-Tuning Project
+# Protects sensitive data, API keys, models, and personal information
+# ═══════════════════════════════════════════════════════════════════════════════════════
+
+# ═══════════════════════════ SENSITIVE DATA FILES ═══════════════════════════ #
+
+# Training and validation datasets (contain personal voice data)
+*.jsonl
+*training*.json
+*validation*.json
+*dataset*.json
+*voice*.json
+*claude*.json
+*premium*.json
+
+# Model files and adapters
+*.safetensors
+*.bin
+*.pt
+*.pth
+*model*
+*adapter*
+*lora*
+gpt_oss_*/
+*_mlx/
+*lmstudio*/
+*minimal*/
+
+# API keys and credentials - CRITICAL PROTECTION
+*api_key*
+*secret*
+*token*
+.env
+.env.*
+config.json
+*_config.json
+*credentials*
+sk-*
+
+# ═══════════════════════════ LOG AND OUTPUT FILES ═══════════════════════════ #
+
+# Training logs (may contain sensitive information)
+*log*.txt
+*training*.log
+*fine_tuning*.log
+*mlx*.log
+*clean*.log
+
+# Model info files (contain model IDs and metadata)
+*model_info*.json
+*arjun_voice*.json
+*ft-*.json
+
+# Output and result files
+*results*.json
+*output*.txt
+*response*.json
+*comparison*.txt
+
+# ═══════════════════════════ PYTHON AND SYSTEM ═══════════════════════════ #
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+mlx_clean/
+conda_env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ═══════════════════════════ MLX AND MODEL SPECIFIC ═══════════════════════════ #
+
+# MLX model directories
+gpt_oss_20b_mlx/
+gpt_oss_arjun_lmstudio/
+gpt_oss_arjun_minimal/
+*_adapters/
+*_checkpoints/
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+huggingface_hub/
+
+# Model downloads
+models/
+checkpoints/
+weights/
+
+# ═══════════════════════════ SPECIFIC PROJECT FILES ═══════════════════════════ #
+
+# Specific sensitive files for this project
+arjun_voice_training.jsonl
+arjun_voice_validation.jsonl
+premium_claude_dataset.jsonl
+mlx_short_dataset/
+cerebras_dataset.jsonl
+converted_dataset.jsonl
+
+# Model info and metadata
+arjun_voice_model_info.json
+arjun_voice_model_info_v2.json
+model_metadata.json
+
+# Training logs
+fine_tuning_log.txt
+clean_training_test_log.txt
+advanced_fine_tuning_log.txt
+mlx_training_log.txt
+
+# Configuration files with sensitive data
+grader_model_config.json
+training_config.json
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+.tmp/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*.old
+*_backup*
+*_old*
+
+# ═══════════════════════════ ALLOW SPECIFIC FILES ═══════════════════════════ #
+
+# Force include important project files (override above patterns)
+!README.md
+!requirements.txt
+!.gitignore
+!LICENSE
+!setup.py
+!pyproject.toml
+
+# Allow example/template files (without real data)
+!*example*.py
+!*template*.py
+!*demo*.py
+
+# Allow documentation
+!docs/
+!*.md
+!*.rst
