@@ -59,7 +59,7 @@ import json
 # Configuration
 API_KEY = "sk-9aqXq2P4EkkntHSA_hL7a1-BbUAPoK-OoRazyiDT93T3BlbkFJq-GxTI1F29_0_h80_1X4cOBHl5JWbTjAlIve-aJqMA"
 FINETUNED_MODEL = "ft:gpt-4o-mini-2024-07-18:personal:arjun-voice-v1:C1oFx9M6"  # Your fine-tuned model
-BASE_MODEL = "gpt-4o-mini-2024-07-18"  # Base model for comparison
+BASE_MODEL = "ft:gpt-4o-mini-2024-07-18:personal:arjun-voice-v2:C27ae1wu"  # Base model for comparison
 MODEL_ID = FINETUNED_MODEL
 
 app = Flask(__name__)
