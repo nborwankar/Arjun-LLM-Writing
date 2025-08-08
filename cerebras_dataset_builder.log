@@ -1,0 +1,134 @@
+🚀 Starting Cerebras Dataset Builder...
+📁 Input Directory: /Users/macbook2024/Dropbox/AAA Backup/A Working/Arjun LLM Writing/Writing
+📄 Output File: cerebras_dataset.json
+🧠 AI Model: gpt-oss-120b
+────────────────────────────────────────────────────────────
+🧠 CEREBRAS DATASET BUILDER
+📁 Input: /Users/macbook2024/Dropbox/AAA Backup/A Working/Arjun LLM Writing/Writing
+
+📊 Processing 28 documents...
+→ Dimson and Marsh Revisited.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (8058 chars)
+   ✓ 2 chunks, score 0.85
+→ Market call Impact of Tariffs.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (1690 chars)
+   📄 Short doc (322 words), keeping whole
+   ✓ 1 chunks, score 0.62
+→ Life Lessons from Arjun Divecha.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (3566 chars)
+   📄 Short doc (457 words), keeping whole
+   ✓ 1 chunks, score 0.80
+→ Emerging Markets - A Quantitative Perspective.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (12329 chars)
+   ✓ 3 chunks, score 0.85
+→ Beyond China Arjun Pitch Deck.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (5886 chars)
+   ✓ 2 chunks, score 0.86
+→ AD_RuminationsonChina&India_1-11.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (7826 chars)
+   ✓ 1 chunks, score 0.86
+→ EMThoughts_Where's My Alpha_5-04.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (8241 chars)
+   ✓ 2 chunks, score 0.87
+→ A Tale of Two Bubbles.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (2845 chars)
+   📄 Short doc (353 words), keeping whole
+   ✓ 1 chunks, score 0.78
+→ Life, Investing and Emerging Markets.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (6386 chars)
+   ✓ 2 chunks, score 0.83
+→ 20210802 The China Syndrome Final.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (4554 chars)
+   🔧 Re-chunking document
+   ✓ 2 chunks, score 0.82
+→ EM Thoughts_EmpireStrikesBack_1-05.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (9148 chars)
+   ✓ 2 chunks, score 0.87
+→ The Death of Growth.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (2000 chars)
+   📄 Short doc (187 words), keeping whole
+   ✓ 1 chunks, score 0.75
+→ EMThoughts_WheresMyAlpha.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (9404 chars)
+   ✓ 2 chunks, score 0.87
+→ min var paper.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (13074 chars)
+   ✓ 2 chunks, score 0.87
+→ 2021 Fall Conference - Reading the Xi Leaves.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (7300 chars)
+   ✓ 2 chunks, score 0.82
+→ BC 14 Oct.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (5630 chars)
+   ✓ 2 chunks, score 0.85
+→ EM - Emerging Consumers Just Want To Have Fun_8-11.pdf
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (16675 chars)
+   ✓ 3 chunks, score 0.86
+→ My view on India in the current environment.docx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (2531 chars)
+   📄 Short doc (324 words), keeping whole
+   ✓ 1 chunks, score 0.78
+→ An Unfinished Tale of Two Bubbles.docx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (2702 chars)
+   📄 Short doc (353 words), keeping whole
+   ✓ 1 chunks, score 0.78
+→ 220517 New EM Index ideas.docx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (1744 chars)
+   📄 Short doc (145 words), keeping whole
+   ✓ 1 chunks, score 0.62
+→ 201107 Emerging Thoughts - India.docx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (3727 chars)
+   📄 Short doc (486 words), keeping whole
+   ✓ 1 chunks, score 0.85
+→ 220301 Why we got Russia wrong.docx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (6770 chars)
+   ✓ 1 chunks, score 0.86
+→ India badla revised.doc
+   ✗ India badla revised.doc: File is not a zip file
+→ 20020828 Emerging Thoughts - Lessons from The Asia Crisis.doc
+   ✗ 20020828 Emerging Thoughts - Lessons from The Asia Crisis.doc: File is not a zip file
+→ Divecha_Beyond China_11-23 v2.pptx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (9067 chars)
+   ✓ 3 chunks, score 0.81
+→ ADi_China & Beyond China_10-24 Arjun Final.pptx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (7387 chars)
+   ✓ 2 chunks, score 0.85
+→ Reimagining Emerging Markets_11-22 Arjun 4.pptx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (7465 chars)
+   ✓ 2 chunks, score 0.85
+→ 220915 Emerging Markets Jan 2002 - .pptx
+   🧠 Calling Cerebras gpt-oss-120b (attempt 1)...
+   ✅ Response received (6971 chars)
+   ✓ 2 chunks, score 0.86
+
+🎉 COMPLETE! Cost: ~$15.60
+📊 72 training pairs generated
+💾 Output: cerebras_dataset.json
+
+✅ Dataset generation complete!
+💾 Dataset saved to: cerebras_dataset.json
+🔄 Ready for OpenAI fine-tuning conversion

@@ -57,7 +57,7 @@ from typing import Dict, List, Any
 # ═══════════════════════════ CONFIGURATION ═══════════════════════════ #
 
 # File paths
-INPUT_JSON = "training_dataset_opus_processed.json"
+INPUT_JSON = "cerebras_dataset.json"
 OUTPUT_TRAINING = "arjun_voice_training.jsonl"
 OUTPUT_VALIDATION = "arjun_voice_validation.jsonl"
 
