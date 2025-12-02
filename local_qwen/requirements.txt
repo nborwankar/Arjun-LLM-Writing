@@ -1,0 +1,29 @@
+# MLX Fine-Tuning Requirements
+# Essential packages for MLX-based fine-tuning
+
+# Core MLX packages
+mlx==0.29.3
+mlx-lm==0.28.3
+mlx-metal==0.29.3
+
+# Machine Learning
+numpy==1.26.4
+torch==2.5.1
+transformers==4.40.0
+datasets==3.2.0
+peft==0.14.0
+accelerate==1.9.0
+
+# Data processing
+pandas==2.2.2
+jsonlines==3.1.0
+PyYAML==6.0.1
+
+# Utilities
+tqdm==4.66.1
+requests==2.31.0
+psutil==5.9.0
+
+# Optional but recommended
+safetensors==0.4.0
+huggingface-hub==0.35.0
